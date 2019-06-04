@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Creating visualisations from data</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1> Network Analysis of Trading data </h1>
+        <div class="second">
+            <div class="box1">
+              <ul style="padding-left: 15px;">
+
+               <h2>Key features</h2>
+
+                <li>
+                The size of the nodes are proportional to the total amount of trading for that location/site.
+                </li>
+                <li>
+                The width of the links between the nodes represent the proportional amount of trading between the two.
+                </li>
+                <li>
+                The connectivity between different sites can be highlighted by hovering over a node. A tooltip displays information regarding the total trading amount for a location as well as the number of connected locations.
+               </li>
+              </ul>
+            </div>
+            <div class="inner">
+                <svg></svg>
+            </div>
+          </div>
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

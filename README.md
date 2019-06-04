@@ -19,7 +19,7 @@ Task performed:
 
 ## Preview of the app:
 
-* Landing pafe of the app
+* Landing page of the app
 ![](images/landing_page.PNG)
 
 
